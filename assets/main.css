@@ -1,0 +1,202 @@
+.navbar{
+  height: 140px;
+  z-index: 1;
+}
+.navbar-nav{
+  gap: 30px;
+}
+.navbar-brand img{
+  width: 64px;
+  height: 38px;
+}
+.navbar-brand h1{
+  font-size: 16px;
+}
+.navbar-brand p{
+  font-size: 10px;
+  font-weight: 300;
+  color: rgb(191, 193, 200);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(0, 154, 216);
+    border: 2px solid rgb(0, 154, 216);
+    border-radius: 30px;
+}
+.nav-link {
+  font-size: 14px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  transition: all 0.3s ease; 
+}
+.nav-link:focus, .nav-link:hover {
+  color: rgb(0, 154, 216) !important;
+  border-color: rgb(0, 154, 216);
+}
+.navbar-toggler {
+  border-color: transparent;
+}
+.navbar-icon{
+  color: white;
+  transition: 0.2s all;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  border: 2px solid rgb(0, 154, 216);
+  box-shadow: none; 
+  border-radius: 20px;
+}
+section{
+  background-image: url("banner.png");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.find-location input {
+    width: 80%;
+    padding: 15px 20px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.find-location button{
+  border: none;
+  background-color: rgb(0, 154, 216);
+  right: 10.5%;
+  padding: 12px 40px;
+  border-radius: 30px;
+  outline: none;
+  font-size: 14px;
+}
+.find-location input:focus{
+ border: none;
+ outline: none;
+}
+section .container{
+  width: 80%;
+}
+.container .days{
+  background: rgba(0, 0, 0, 0.1);
+  color: rgb(191, 193, 200);
+  padding-inline: 10px;
+}
+.container .today{
+  background: #323544;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.today .forecast h5{
+  color: rgb(191, 193, 200);
+}
+.today .forecast{
+  padding-inline: 15px;
+}
+.today .forecast .num{
+  font-size: 90px;
+}
+.today .forecast img{
+  width: 90px;
+  height: 90px;
+}
+.today .forecast p{
+  color: rgb(0, 154, 216);
+}
+.today .forecast .icons p{
+  color: rgb(191, 193, 200);
+}
+.today .forecast .icons img{
+  width: 21px;
+  height: 21px;
+}
+#atomm{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #323544;
+}
+.tomm .forecast img{
+  width: 48px;
+  height: 48px;
+}
+.tomm .forecast .num{
+  font-size: 24px;
+}
+.tomm .forecast .num1{
+  font-size: 16px;
+  color: rgb(191, 193, 200);
+}
+.tomm .forecast span{
+  font-size: 16px;
+  color:rgb(0, 154, 216);
+}
+.tomm{
+ background:#1e202b;
+}
+footer{
+  background-color: rgb(38, 41, 54);
+}
+
+.subscribe input {
+    width: 70%;
+    padding: 15px 20px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.subscribe button{
+  border: none;
+  background-color: rgb(0, 154, 216);
+  padding: 12px 20px;
+  border-radius: 30px;
+  outline: none;
+  font-size: 14px;
+}
+.subscribe input:focus{
+ border: none;
+ outline: none;
+}
+footer p{
+  color: rgb(191, 193, 200);
+  font-size: 14px;
+}
+
+.subsicons a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1e202b;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.subsicons i{
+  color: rgb(0, 154, 216);
+}
+.subsicons a:hover{
+  background-color: rgb(0, 154, 216);
+  i{
+    color: white;
+  }
+}
+
+@media (max-width:992px ) { 
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(0, 154, 216);
+    border: 2px solid rgb(0, 154, 216);
+    border-radius: 10px;
+
+}
+.nav-link {
+  font-size: 14px;
+  border: 2px solid rgb(38, 41, 54);
+  border-radius: 10px;
+  transition: all 0.3s ease; 
+}
+.nav-link:focus, .nav-link:hover {
+    color: white !important;
+    border-color: white;
+}
+.navbar-nav{
+  gap: 0;
+}
+}
